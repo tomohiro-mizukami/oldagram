@@ -1,0 +1,142 @@
+/* Common */
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    background-color:  #F5F5F5;
+}
+
+.container {
+    width: 375px;
+    margin: 100px auto;
+}
+
+.user-avatar {
+    width: 34px;
+    height: auto;
+    border-radius: 50%;
+}
+
+dd {
+    margin-left: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header */
+header {
+    height: 66px;
+    padding: 0 15px;
+    background-color: #fff;
+    border-bottom: 1px solid #C6C6C6;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 127px;
+}
+
+/* Post */
+.post {
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+/* Post Header */
+.post-header {
+    height: 55px;
+    padding: 0 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.post-header__user-avatar {
+    margin-right: 7px;
+}
+
+.post-header__title {
+    line-height: 16px;
+    font-weight: 700;
+}
+
+.post-header__location {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/* Post Image */
+.post-image img {
+    max-width: 100%;
+}
+
+/* Post Interactive */
+.post-interactive {
+    padding: 9px 10px 16px 3px;
+}
+
+.post-interactive__icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    padding: 8px 7px 12px;
+    transition: opacity .3s ease-in-out;
+    cursor: pointer;
+}
+
+.icon:hover {
+    opacity: .7;
+}
+
+.icon-like {
+    width: 23px;
+}
+
+.icon-like--scaleup {
+    transform: scale(1.2);
+    transition: transform .3s ease-in-out;
+}
+
+.icon-comment {
+    width: 22px;
+}
+
+.icon-share {
+    width: 22px;
+}
+
+.post-interactive__likes {
+    margin-left: 7px;
+    margin-bottom: 12px;
+    line-height: 16px;
+}
+
+.post-interactive__likes span {
+    display: inline-block;
+    font-weight: 700;
+}
+
+.post-interactive__text {
+    margin-left: 7px;
+    line-height: 16px;
+}
+
+.username {
+    font-weight: 700;
+    padding-right: 2px;
+}
+
